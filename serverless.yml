@@ -27,7 +27,7 @@ functions:
   sent-to-slack-deploy:
     handler: handler.hello
     environment:
-      GROUP: rafabarbosa
+      GROUP: linkTeen
     layers:
       - {Ref: SlackdeployLambdaLayer}
     events:
